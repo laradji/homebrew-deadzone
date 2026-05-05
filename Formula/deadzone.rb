@@ -1,13 +1,13 @@
 class Deadzone < Formula
   desc "Self-hosted MCP server for semantic doc search"
   homepage "https://github.com/laradji/deadzone"
-  version "0.7.0"
+  version "0.7.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/laradji/deadzone/releases/download/v#{version}/deadzone_v#{version}_darwin_arm64.tar.gz"
-      sha256 "369421c8853165af3db1676a9905c5ce97c1b4b54cd4cad9a40ae7762bb0df5a"
+      sha256 "5deb7d78e2877a82e478dcafe8ad3ce7b89de4f0f046f21ab1ae5bc621952123"
     end
     # No darwin-amd64 build — release.yml only produces darwin-arm64.
   end
